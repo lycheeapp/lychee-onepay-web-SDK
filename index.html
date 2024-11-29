@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Library with React Bundled</title>
+        <script src="dist/Lychee-SDK.umd.js"></script> <!-- Only include your library -->
+    <link rel="stylesheet" type="text/css" href="dist/style.css">
+</head>
+<body>
+<div id="componentContainer"></div>
+
+<script>
+    // Render the component
+    const container = document.getElementById('componentContainer');
+    Lychee_SDK.popupRender(container);
+</script>
+</body>
+</html>
